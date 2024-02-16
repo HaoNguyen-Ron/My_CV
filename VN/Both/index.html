@@ -1,0 +1,424 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hồ hơ của tôi</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,600&family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/resume.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="page">
+        <section class="card sidebar">
+          <img
+            src="./assets/images/avatar2.png"
+            alt="My own avatar"
+            class="sidebar__avatar"
+          />
+
+          <div class="sidebar__user">
+            <p class="sidebar__user__name">Nguyễn Hào</p>
+
+            <div class="sidebar__user__icons">
+              <a
+                class="social__icon"
+                href="https://www.facebook.com/Hao0905790122/"
+                target="_blank"
+              >
+                <img
+                  src="./assets/icons/facebook.svg"
+                  alt="facebook social icon"
+                />
+              </a>
+
+              <a
+                class="social__icon"
+                href="https://github.com/HaoNguyen-Ron"
+                target="_blank"
+              >
+                <img src="./assets/icons/github.svg" alt="github social icon" />
+              </a>
+
+              <a class="social__icon" disabled href="#">
+                <img
+                  src="./assets/icons/instagram.svg"
+                  alt="instagram social icon"
+                />
+              </a>
+            </div>
+
+            <div class="sidebar__user__info">
+              <div class="info-group">
+                <img
+                  src="./assets/icons/phone.svg"
+                  alt="phone"
+                  class="info-group__icon"
+                />
+                <div class="info-group__content">
+                  <p class="info-group__content__title">Số điện thoại</p>
+                  <p class="info-group__content__description">
+                    +84 905 790 122
+                  </p>
+                </div>
+              </div>
+
+              <div class="info-group">
+                <img
+                  src="./assets/icons/email.svg"
+                  alt="phone"
+                  class="info-group__icon"
+                />
+                <div class="info-group__content">
+                  <p class="info-group__content__title">Email</p>
+                  <p
+                    class="info-group__content__description"
+                    title="hao100319@gmail.com"
+                  >
+                    hao100319@gmail.com
+                  </p>
+                </div>
+              </div>
+
+              <div class="info-group">
+                <img
+                  src="./assets/icons/location.svg"
+                  alt="phone"
+                  class="info-group__icon"
+                />
+                <div class="info-group__content">
+                  <p class="info-group__content__title">Địa chỉ</p>
+                  <p class="info-group__content__description">
+                    Da Nang, Viet Nam
+                  </p>
+                </div>
+              </div>
+
+              <div class="info-group">
+                <img
+                  src="./assets/icons/calendar.svg"
+                  alt="phone"
+                  class="info-group__icon"
+                />
+                <div class="info-group__content">
+                  <p class="info-group__content__title">Ngày sinh</p>
+                  <p class="info-group__content__description">Mar 10, 1999</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card navbar">
+          <a class="navbar__item active" href="#">
+            <img
+              src="./assets/icons/cv.svg"
+              alt="main icon"
+              class="navbar__item__icon"
+            />
+
+            <p class="navbar__item__title">Resume</p>
+          </a>
+
+          <a class="navbar__item" href="#about">
+            <img
+              src="./assets/icons/user.svg"
+              alt="User icon"
+              class="navbar__item__icon"
+            />
+
+            <p class="navbar__item__title">About</p>
+          </a>
+
+          <a class="navbar__item" href="#edu">
+            <img
+              src="./assets/icons/blog.svg"
+              alt="Blogs icon"
+              class="navbar__item__icon"
+            />
+
+            <p class="navbar__item__title">Education</p>
+          </a>
+
+          <a class="navbar__item" href="#work">
+            <img
+              src="./assets/icons/codesandbox.svg"
+              alt="Works icon"
+              class="navbar__item__icon"
+            />
+
+            <p class="navbar__item__title">Project</p>
+          </a>
+
+          <a class="navbar__item" href="#exp">
+            <img
+              src="./assets/icons/contact.svg"
+              alt="Contact icon"
+              class="navbar__item__icon"
+            />
+
+            <p class="navbar__item__title">Experience</p>
+          </a>
+        </section>
+
+        <section class="card main">
+          <div class="wrapper">
+            <div class="wrapper__header">
+              <p class="wrapper__header__title">Bản tóm tắt</p>
+
+              <div class="line"></div>
+            </div>
+
+            <div class="wrapper__list">
+              <div class="list--about" id="about">
+                <div class="list__title">
+                  <img
+                    src="./assets/icons/target.svg"
+                    alt="Education icon"
+                    class="list__title__icon"
+                  />
+
+                  <p class="list__title__name">Mục tiêu</p>
+                </div>
+
+                <div class="list__content">
+                  <div class="list__content__item bg--FFF1FB">
+                    <p class="list__content__address">
+                      Là một lập trình đang trong quá trình học tập và nổ lực trau dồi kiến thức về lĩnh vực công nghệ thông tin nhắm phấn đấu trở thành một ký sư lập trình có trình độ và năng lực để đáp ứng nhu cầu của kỷ nguyên kỹ thuật số hiện tại và phục vụ tham vọng trong tương lai của chính bản thân.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="list--top" id="edu">
+                <div class="list__title">
+                  <img
+                    src="./assets/icons/educationsvg.svg"
+                    alt="Education icon"
+                    class="list__title__icon"
+                  />
+
+                  <p class="list__title__name">Trình độ học vấn</p>
+                </div>
+
+                <div class="list__content">
+                  <div class="list__content__item bg--EEF5FA">
+                    <p class="list__content__time">2023-04 - đến nay</p>
+
+                    <p class="list__content__location">
+                       Reactjs Nodejs MongoDB-
+                    </p>
+
+                    <p class="list__content__address">
+                      Softech Aptech Da Nang-
+                    </p>
+
+                    <p class="list__content__address">
+                      38 Yên Bái, Đà Nẵng, Việt Nam
+                    </p>
+                  </div>
+
+                  <div class="list__content__item bg--FFF4F4">
+                    <p class="list__content__time">2017.08 - 2022.03</p>
+
+                    <p class="list__content__location">Ngành Ngôn ngữ Anh-</p>
+
+                    <p class="list__content__address">
+                     Đại học Ngoại ngữ Đà Nẵng
+                    </p>
+
+                    <p class="list__content__address">
+                      313 Lương Nhữ Hộc, Đà Nẵng, Việt Nam
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="list--bottom" id="work">
+                <div class="list__title">
+                  <img
+                    src="./assets/icons/experience.svg"
+                    alt="Experience icon"
+                    class="list__title__icon"
+                  />
+
+                  <p class="list__title__name">Các dự án đã tham gia</p>
+                </div>
+
+                <div class="list__content">
+                  <div class="list__content__item bg--FFF1FB">
+                    <p class="list__content__location"> Front-end cho trang web bán hàng</p>
+                  
+                    <div class="list__content__project">
+                      <p class="list__content__address">
+                        Đây là trang web giả lập cho admin để thao tác với sản phẩm.
+                      </p>
+
+                      <p class="list__content__description">
+                        <b>Ngôn ngữ sử dụng: </b>
+                        HTML, CSS, ReactJS, React Router,
+                      </p>
+
+                      <div class="list__content__description">
+                        <b>Các tính năng đã làm: </b>
+                        <p>. Xử lý khách hàng đăng nhập và đăng xuất thông qua giao tiếp với Back-end để xác nhận.</p>
+                        <p>. Lấy thông tin từ API Back-end để tạo UI : bản sản phẩm, thêm sửa xóa sản phẩm và gửi lên server.</p>
+                        <p>. Cách xử lý cách Route cho từng mục.</p>
+                      </div>
+
+                      <div class="list__content__description">
+                        <b>Thành viên tham gia: </b>
+                        <p>. Số lượng: 4</p>
+                        <p>. Đóng góp của bản thân: 30%</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="list__content__item bg--F2F4FF">
+                    <p class="list__content__location">Back-end cho trang web bán hàng </p>
+                  
+                    <div class="list__content__project">
+                      <p class="list__content__address">
+                        Đây là phần xử lý của Back-end cho các yêu cầu được gửi từ Front-end.
+                      </p>
+
+                      <p class="list__content__description">
+                        <b>Ngôn ngữ sử dụng: </b>
+                        Reactjs, Nodejs, ExpressJS, MongoDB 
+                      </p>
+
+                      <div class="list__content__description">
+                        <b>Các tính năng đã làm: </b>
+                        <p>. Xử lý việc đăng nhập của người dùng bao gồm: xác thực dữ liệu với Database, trả về TOKEN nếu đúng </p>
+                        <p>. Sử dụng Axios để giao tiếp với Database </p>
+                        <p>. Xử lý các trang phải có TOKEN với được xử dụng </p>
+                        <p>. Xử lý tìm kiếm, thêm mới, sửa đổi, xóa mềm các sản phẩm, danh mục và nhà cung cấp</p>
+                      </div>
+
+                      <div class="list__content__description">
+                        <b>Thành viên tham gia: </b>
+                        <p>. Số lượng: 5</p>
+                        <p>. Đóng góp của bản thân: 20%</p>
+                      </div>
+                    </div>
+                  </div>
+                <div class="list__link">
+                  <a
+                    class="main__btn"
+                    href="https://github.com/HaoNguyen-Ron/my-mini-project"
+                    target="_blank"
+                  >
+                    <img
+                      src="./assets/icons/github.svg"
+                      alt="download"
+                      class="main__btn__icon"
+                    />
+                    <p class="main__btn__title">Xem chi tiết tại Github</p>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="bg--gray">
+            <div class="wrapper">
+              <div class="wrapper__list__history" id="exp">
+                <div class="wrapper__list__workspace">
+                  <p class="list__title">Kinh nghiệm liên quan</p>
+
+                  <div class="list__content">
+                    <div class="list__content__item bg--EEF5FA">
+                      <p class="list__content__time">2019-04 - 2021-12</p>
+
+                      <p class="list__content__location">Alpha Academy-</p>
+
+                      <p class="list__content__address">
+                        61 Nguyễn Hữu Dật, Đà Nẵng, Việt Nam
+                      </p>
+
+                      <div class="list__content__description">
+                        <b>Kinh nghiệm học được: </b>
+                        <p> Lần đầu tiếp xúc với HTML, CSS thông qua thao tác sửa xóa và đăng lên các hình ảnh, nội dung hay khóa học lên Wordpress của PHP</p>
+                      </div>
+                    </div>
+
+                    <div class="list__content__item bg--FFF4F4">
+                      <p class="list__content__time">2019-04 - 2021-12</p>
+
+                      <p class="list__content__location">
+                        Sân bay quốc tế Đà Nẵng -
+                      </p>
+
+                      <p class="list__content__address">
+                        Nguyễn Văn Linh, Đà Nẵng, Việt Nam
+                      </p>
+
+                      <div class="list__content__description">
+                        <b>Kinh nghiệm học được: </b>
+                        <p>Xử lý tìm kiếm, lọc theo tên, theo mã khách hàng, sửa, xóa hành khách trên hệ thông admin của Vietnam Airlines</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="wrapper__list__Knowledge">
+                  <p class="list__title">Trình độ hiểu biết và bằng cấp khác</p>
+
+                  <div class="list__Language">
+                    <div class="list__tag">
+                      <p class="language">Ngôn ngữ Anh: TOEIC 905/940</p>
+
+                      <p class="language">Ngôn ngữ Trung: HSK II 194/200</p>
+                    </div>
+                  </div>
+
+                  <div class="list__tag">
+                    <p class="tag">HTML</p>
+
+                    <p class="tag">CSS</p>
+
+                    <p class="tag">JavaScript</p>
+
+                    <p class="tag">ReactJS</p>
+
+                    <p class="tag">SQL server</p>
+
+                    <p class="tag">NodeJS</p>
+
+                    <p class="tag">NextJS</p>
+
+                    <p class="tag">MongoDB</p>
+
+                    <p class="tag">Quản lý thời gian</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
