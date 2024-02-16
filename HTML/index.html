@@ -1,0 +1,546 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My website</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,600&family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/resume.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="page">
+        <section class="card sidebar">
+          <img
+            src="./assets/images/avatar2.png"
+            alt="My own avatar"
+            class="sidebar__avatar"
+          />
+
+          <div class="sidebar__user">
+            <p class="sidebar__user__name">Nguyen Hao</p>
+
+            <p class="sidebar__user__position">Front-end Developer</p>
+
+            <div class="sidebar__user__icons">
+              <a
+                class="social__icon"
+                href="https://www.facebook.com/Hao0905790122/"
+                target="_blank"
+              >
+                <img
+                  src="./assets/icons/facebook.svg"
+                  alt="facebook social icon"
+                />
+              </a>
+
+              <a
+                class="social__icon"
+                href="https://github.com/HaoNguyen-Ron"
+                target="_blank"
+              >
+                <img src="./assets/icons/github.svg" alt="github social icon" />
+              </a>
+
+              <a class="social__icon" disabled href="#">
+                <img
+                  src="./assets/icons/instagram.svg"
+                  alt="instagram social icon"
+                />
+              </a>
+            </div>
+
+            <div class="sidebar__user__info">
+              <div class="info-group">
+                <img
+                  src="./assets/icons/phone.svg"
+                  alt="phone"
+                  class="info-group__icon"
+                />
+                <div class="info-group__content">
+                  <p class="info-group__content__title">Phone</p>
+                  <p class="info-group__content__description">
+                    +84 905 790 122
+                  </p>
+                </div>
+              </div>
+
+              <div class="info-group">
+                <img
+                  src="./assets/icons/email.svg"
+                  alt="phone"
+                  class="info-group__icon"
+                />
+                <div class="info-group__content">
+                  <p class="info-group__content__title">Email</p>
+                  <p
+                    class="info-group__content__description"
+                    title="hao100319@gmail.com"
+                  >
+                    hao100319@gmail.com
+                  </p>
+                </div>
+              </div>
+
+              <div class="info-group">
+                <img
+                  src="./assets/icons/location.svg"
+                  alt="phone"
+                  class="info-group__icon"
+                />
+                <div class="info-group__content">
+                  <p class="info-group__content__title">Location</p>
+                  <p class="info-group__content__description">
+                    Da Nang, Viet Nam
+                  </p>
+                </div>
+              </div>
+
+              <div class="info-group">
+                <img
+                  src="./assets/icons/calendar.svg"
+                  alt="phone"
+                  class="info-group__icon"
+                />
+                <div class="info-group__content">
+                  <p class="info-group__content__title">Birthday</p>
+                  <p class="info-group__content__description">Mar 10, 1999</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card navbar">
+          <a class="navbar__item active" href="#">
+            <img
+              src="./assets/icons/cv.svg"
+              alt="main icon"
+              class="navbar__item__icon"
+            />
+
+            <p class="navbar__item__title">Resume</p>
+          </a>
+
+          <a class="navbar__item" href="#about">
+            <img
+              src="./assets/icons/user.svg"
+              alt="User icon"
+              class="navbar__item__icon"
+            />
+
+            <p class="navbar__item__title">About</p>
+          </a>
+
+          <a class="navbar__item" href="#edu">
+            <img
+              src="./assets/icons/blog.svg"
+              alt="Blogs icon"
+              class="navbar__item__icon"
+            />
+
+            <p class="navbar__item__title">Education</p>
+          </a>
+
+          <a class="navbar__item" href="#work">
+            <img
+              src="./assets/icons/codesandbox.svg"
+              alt="Works icon"
+              class="navbar__item__icon"
+            />
+
+            <p class="navbar__item__title">Project</p>
+          </a>
+
+          <a class="navbar__item" href="#exp">
+            <img
+              src="./assets/icons/contact.svg"
+              alt="Contact icon"
+              class="navbar__item__icon"
+            />
+
+            <p class="navbar__item__title">Experience</p>
+          </a>
+        </section>
+
+        <section class="card main">
+          <div class="wrapper">
+            <div class="wrapper__header">
+              <p class="wrapper__header__title">Resume</p>
+
+              <div class="line"></div>
+            </div>
+
+            <div class="wrapper__list">
+              <div class="list--about" id="about">
+                <div class="list__title">
+                  <img
+                    src="./assets/icons/target.svg"
+                    alt="Education icon"
+                    class="list__title__icon"
+                  />
+
+                  <p class="list__title__name">Objective</p>
+                </div>
+
+                <div class="list__content">
+                  <div class="list__content__item bg--FFF1FB">
+                    <p class="list__content__address">
+                      A programming newcomer is starting off a fresh field of
+                      coding and striving to be a competent front-end and beyond
+                      with his utmost working efficiency to meet the needs of
+                      the current digital era and to serve his future ambition.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="list--top" id="edu">
+                <div class="list__title">
+                  <img
+                    src="./assets/icons/educationsvg.svg"
+                    alt="Education icon"
+                    class="list__title__icon"
+                  />
+
+                  <p class="list__title__name">Education</p>
+                </div>
+
+                <div class="list__content">
+                  <div class="list__content__item bg--EEF5FA">
+                    <p class="list__content__time">2023-04 - Present</p>
+
+                    <p class="list__content__location">
+                      Mongodb, Expressjs, Reactjs, Nodejs -
+                    </p>
+
+                    <p class="list__content__address">
+                      Softech Aptech Da Nang-
+                    </p>
+
+                    <p class="list__content__address">
+                      38 Yen Bai, Da Nang, Vietnam
+                    </p>
+                  </div>
+
+                  <div class="list__content__item bg--FFF4F4">
+                    <p class="list__content__time">2017.08 - 2022.03</p>
+
+                    <p class="list__content__location">English Major -</p>
+
+                    <p class="list__content__address">
+                      Da Nang University of Foreign Language Studies-
+                    </p>
+
+                    <p class="list__content__address">
+                      313 Luong Nhu Hoc, Da Nang, Vietnam
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="list--bottom" id="work">
+                <div class="list__title">
+                  <img
+                    src="./assets/icons/experience.svg"
+                    alt="Experience icon"
+                    class="list__title__icon"
+                  />
+
+                  <p class="list__title__name">Projects</p>
+                </div>
+
+                <div class="list__content">
+                  <div class="list__content__item bg--FFF1FB">
+                    <p class="list__content__location">
+                      3nime Figure Online Shop
+                    </p>
+
+                    <div class="list__content__project">
+                      <p class="list__content__address">
+                        An online website primarily displays and sells figure
+                        products
+                      </p>
+
+                      <p class="list__content__description">
+                        <b>Technologies: </b>
+                        Nextjs, Material UI, Bootstrap5, Formik, Yup
+                      </p>
+
+                      <div class="list__content__description">
+                        <b>Self-learn: </b>
+                        <ul>
+                          <li>
+                            Accumulate knowledge in e-commerce website design,
+                            including familiarity with Amazon's cart styles.
+                          </li>
+                          <li>
+                            Manage user login by sending requests to the
+                            Back-end to verify tokens.
+                          </li>
+                          <li>Handle user carts by utilizing localStorage.</li>
+                          <li>
+                            Establish a connection between the Back-end and API
+                            to manage customer purchases, update information,
+                            and handle orders.
+                          </li>
+                          <li>
+                            Implement methods to enhance UI and UX, such as data
+                            extraction, table display, Pop-up, and Notification.
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="list__content__description">
+                        <b>Participation: </b>
+                        <p>. Number of collaborators: 5</p>
+                        <p>. self-contribution: 50%</p>
+                      </div>
+                    </div>
+
+                    <div class="list__content__description">
+                      <b>Link: </b>
+                      <span
+                        ><a
+                          href="https://3nime-onlineshop.vercel.app/"
+                          target="_blank"
+                          >-3nime Online Shop</a
+                        ></span
+                      >
+                    </div>
+                  </div>
+
+                  <div class="list__content__item bg--FFF4F4">
+                    <p class="list__content__location">
+                      3nime Figure Online Administration
+                    </p>
+
+                    <div class="list__content__project">
+                      <p class="list__content__address">
+                        An online admin to control and handle figure products
+                      </p>
+
+                      <p class="list__content__description">
+                        <b>Technologies: </b>
+                        Reactjs, Material UI, Bootstrap5, Formik, Yup
+                      </p>
+
+                      <div class="list__content__description">
+                        <b>Self-learn: </b>
+                        <ul>
+                          <li>
+                            Manage employee login by sending requests to the
+                            Back-end to verify tokens.
+                          </li>
+                          <li>
+                            Establish a connection between the Back-end and API
+                            to manage products's CRUD including origin, category
+                            and order.
+                          </li>
+                          <li>
+                            Configure parameters or queries required by the
+                            Back-end to retrieve appropriate data.
+                          </li>
+                          <li>
+                            Implement methods to enhance UI and UX, such as data
+                            extraction, table display, Pop-up, and Notification.
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="list__content__description">
+                        <b>Participation: </b>
+                        <p>. Number of collaborators: 5</p>
+                        <p>. self-contribution: 90%</p>
+                      </div>
+                    </div>
+
+                    <div class="list__content__description">
+                      <b>Link: </b>
+                      <span
+                        ><a
+                          href="https://group3-3nime-reactjs-admin.vercel.app/"
+                          target="_blank"
+                          >-3nime Administration</a
+                        ></span
+                      >
+                    </div>
+                  </div>
+
+                  <div class="list__content__item bg--F2F4FF">
+                    <p class="list__content__location">
+                      Simulated E-commerce Landing Page
+                    </p>
+
+                    <div class="list__content__project">
+                      <p class="list__content__address">
+                        A project designed to refine the core structure of an
+                        online shopping front page
+                      </p>
+
+                      <p class="list__content__description">
+                        <b>Technologies: </b>
+                        HTML, CSS, Bootstrap5
+                      </p>
+
+                      <div class="list__content__description">
+                        <b>Self-learn: </b>
+                        <ul>
+                          <li>
+                            Refine the core structure of an online selling
+                            website through practical exercises.
+                          </li>
+                          <li>
+                            Enhance the styling of icons and master the
+                            selection of color palettes.
+                          </li>
+                          <li>
+                            Gain familiarity with responsive design principles.
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="list__content__description">
+                        <b>Participation: </b>
+                        <p>. Number of collaborators: 1</p>
+                        <p>. self-contribution: 100%</p>
+                      </div>
+                    </div>
+
+                    <div class="list__content__description">
+                      <b>Link: </b>
+                      <span
+                        ><a
+                          href="https://github.com/HaoNguyen-Ron/my-mini-project/tree/main/html-responsive%20landingpage"
+                          target="_blank"
+                          >-Responsive landing page</a
+                        ></span
+                      >
+                    </div>
+                  </div>
+                  <div class="list__link">
+                    <a
+                      class="main__btn"
+                      href="https://github.com/HaoNguyen-Ron/my-projects.git"
+                      target="_blank"
+                    >
+                      <img
+                        src="./assets/icons/github.svg"
+                        alt="download"
+                        class="main__btn__icon"
+                      />
+                      <p class="main__btn__title">View in Github</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg--gray aside-wrapper">
+            <div class="wrapper">
+              <div class="wrapper__list__history" id="exp">
+                <div class="wrapper__list__workspace">
+                  <p class="list__title">Experience</p>
+
+                  <div class="list__content">
+                    <div class="list__content__item bg--EEF5FA">
+                      <p class="list__content__time">2019-04 - 2021-12</p>
+
+                      <p class="list__content__location">Alpha Academy-</p>
+
+                      <p class="list__content__address">
+                        61 Nguyen Huu Dat, Da Nang, Vietnam
+                      </p>
+
+                      <div class="list__content__description">
+                        <b>Experience earn: </b>
+                        <p>
+                          First encounter coding through HTML, CSS to style
+                          images or content so as to upload onto the website via
+                          WordPress.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="list__content__item bg--FFF4F4">
+                      <p class="list__content__time">2019-04 - 2021-12</p>
+
+                      <p class="list__content__location">
+                        Da Nang International Airport -
+                      </p>
+
+                      <p class="list__content__address">
+                        Nguyen Van Linh, Da Nang, Vietnam
+                      </p>
+
+                      <div class="list__content__description">
+                        <b>Experience earn: </b>
+                        <p>
+                          Receiving instruction on viewing, searching, sorting,
+                          posting, updating and deleting customer datas through
+                          the Vietnam Airlines Check-in system.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="wrapper__list__Knowledge">
+                  <p class="list__title">Knowledge</p>
+
+                  <div class="list__Language">
+                    <div class="list__tag">
+                      <p class="language">English: TOEIC 905/940</p>
+
+                      <p class="language">Chinese: HSK II 194/200</p>
+                    </div>
+                  </div>
+
+                  <div class="list__tag">
+                    <p class="tag">HTML</p>
+
+                    <p class="tag">CSS</p>
+
+                    <p class="tag">JavaScript</p>
+
+                    <p class="tag">ReactJS</p>
+
+                    <p class="tag">SQL server</p>
+
+                    <p class="tag">NodeJS</p>
+
+                    <p class="tag">NextJS</p>
+
+                    <p class="tag">MongoDB</p>
+
+                    <p class="tag">Communication</p>
+
+                    <p class="tag">Time Management</p>
+
+                    <p class="tag">Flexibility</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
